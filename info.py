@@ -73,8 +73,8 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/A2ZOFFICL')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+lrbmmmR6kf1kYmI9')
-TUTORIAL = environ.get('TUTORIAL', '')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat Link Without https:// or @
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/A2ZMovieRequesst/15490')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'A2ZOFFICL') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -107,8 +107,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'hRPS5vvZc0OGOEUQJMJzPiojoVK2')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ez4short.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '4491dd753120960a1c3bf360cf45fae06c2e6eb6')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
