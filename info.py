@@ -51,7 +51,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://A2ZMovie:A2Z123@movie.rxzed.mongodb.net/?retryWrites=true&w=majority&appName=Movie")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://TechVJ:Techvj123@techvjaf.3ojqt.mongodb.net/?retryWrites=true&w=majority&appName=TechVjAF
+")
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
